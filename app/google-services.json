@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1080988057726",
+    "firebase_url": "https://stepper-a162e.firebaseio.com",
+    "project_id": "stepper-a162e",
+    "storage_bucket": "stepper-a162e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1080988057726:android:eb08f2b944aa01ad89d82f",
+        "android_client_info": {
+          "package_name": "com.example.stepper"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1080988057726-bd31uh3b06tjg6e585fvgcnqkgcb3j2c.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.stepper",
+            "certificate_hash": "678bd74e043801410e70658faf1310ec1bd2ffa1"
+          }
+        },
+        {
+          "client_id": "1080988057726-rir7pvjb22r6cmg7j7k8ptugq0p5a77p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBSRxfZUhyGDL2HkPExaw43yDQlLJ5VBcY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1080988057726-rir7pvjb22r6cmg7j7k8ptugq0p5a77p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

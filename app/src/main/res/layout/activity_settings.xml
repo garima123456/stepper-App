@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SettingsActivity"
+    android:background="@drawable/back">
+    <ImageView
+        android:id="@+id/settings_profile_image"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="50dp"
+        android:src="@drawable/profile_image" />
+
+    <EditText
+        android:id="@id/username_settings"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/settings_profile_image"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="15dp"
+        android:backgroundTint="@android:color/white"
+        android:drawableLeft="@drawable/edit_profile"
+        android:drawableTint="@android:color/white"
+        android:hint="Name"
+        android:textColor="@android:color/white"
+        android:textColorHint="@android:color/white"></EditText>
+
+    <EditText
+        android:id="@id/bio_settings"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableTint="@android:color/white"
+        android:drawableLeft="@drawable/edit_status"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginTop="20dp"
+        android:hint="Write your bio"
+        android:backgroundTint="@android:color/white"
+        android:textColorHint="@android:color/white"
+        android:textColor="@android:color/white"
+        android:layout_below="@+id/username_settings">
+
+    </EditText>
+
+
+
+    <Button
+        android:id="@+id/save_settings_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/bio_settings"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="18dp"
+        android:text="Save"
+        android:textColor="@android:color/black"></Button>
+
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="18dp"
+        android:layout_marginBottom="61dp"
+        android:elevation="10dp"
+        android:visibility="invisible"
+        app:layout_constraintTop_toBottomOf="@+id/save_settings_btn" />
+
+
+</RelativeLayout>
